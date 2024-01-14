@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# saas-pricing-example
+
+This is an example [Next.js](https://nextjs.org/) project bootstrapped showcasing a fictional SaaS product. The application includes a landing page, a sign-up flow and a post-signup product interface.
+
+# Demo
+
+
 
 ## Getting Started
 
@@ -8,7 +14,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
+# or (preferred)
 pnpm dev
 # or
 bun dev
@@ -16,22 +22,26 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tests
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+ pnpm test
 
-## Learn More
+> saas-pricing@0.1.0 test /Users/dennis/code/saas-pricing
+> vitest
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ DEV  v1.1.3 /Users/dennis/code/saas-pricing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ ✓ tests/utils/utils.test.ts (1)
+ ✓ tests/api/pricing/pricing.test.ts (3)
 
-## Deploy on Vercel
+ Test Files  2 passed (2)
+      Tests  4 passed (4)
+   Start at  03:28:08
+   Duration  721ms (transform 33ms, setup 0ms, collect 25ms, tests 4ms, environment 681ms, prepare 112ms)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# saas-pricing-example
+ PASS  Waiting for file changes...
+       press h to show help, press q to quit
+```

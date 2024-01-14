@@ -2,12 +2,12 @@
 
 import type { Pricing } from "@/api/pricing/pricing";
 import { useRouter } from "next/navigation";
-
 const pages = ['Home', 'Profile', 'Billing'];
 
 export default function Home() {
-  const firstName = sessionStorage?.getItem('firstName');
-  let planStr = sessionStorage?.getItem('plan');
+  let firstName = window?.sessionStorage?.getItem('firstName');
+  let planStr = window?.sessionStorage?.getItem('plan');
+
   let plan: null | Pricing = null;
   const router = useRouter();
 
