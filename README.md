@@ -2,11 +2,15 @@
 
 This is an example [Next.js](https://nextjs.org/) project bootstrapped showcasing a fictional SaaS product. The application includes a landing page, a sign-up flow and a post-signup product interface.
 
-# Demo
+## Demo
+
+<img src="/docs/demo.gif" />
 
 
 
 ## Getting Started
+
+The frontend framework used is React on Next JS. For styling, Tailwind CSS classes are used.
 
 First, run the development server:
 
