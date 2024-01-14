@@ -4,6 +4,8 @@ This is an example [Next.js](https://nextjs.org/) project bootstrapped showcasin
 
 ## Demo
 
+In the first screen the wireframes are shown, followed by the landing page, signup flow and post-signup product interface for a fictional SaaS product.
+
 <img src="/docs/demo.gif" />
 
 
