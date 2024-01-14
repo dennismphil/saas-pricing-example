@@ -1,0 +1,38 @@
+[
+    {
+        "id": "hour",
+        "summary": "Hourly Real-time Consulting",
+        "currency": "$",
+        "amount": 199,
+        "unit": "hour",
+        "description": [
+            "Rubber Duck Service: Talk to an expert to quickly squash a tricky one off bug",
+            "Recorded sessions: No note taking needed. Every interaction is recorded so you can replay them at your convenience"
+        ]
+    },
+    {
+        "id": "month",
+        "summary": "Async Consulting",
+        "currency": "$",
+        "amount": 399,
+        "unit": "month",
+        "description": [
+            "Pass on your Jira tickets to us ",
+            "Personalized Service: Timely advise tailored for your needs",
+            "Share code, screenshots, recordings for complex issues",
+            "Enjoy a free 1 hour real time consulting session"
+        ]
+    },
+    {
+        "id": "sprint",
+        "summary": "Sprint-to-Sprint Consulting",
+        "currency": "$",
+        "amount": 3499,
+        "unit": "sprint",
+        "description": [
+            "Scale up and down as your business needs changes",
+            "Pause or cancel anytime",
+            "Fixed predictable pricing"
+        ]
+    }
+]
